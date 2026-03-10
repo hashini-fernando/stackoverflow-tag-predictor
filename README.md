@@ -25,7 +25,7 @@ Fast inference using Flask backend
 Extensible training pipeline
 
 Tech Stack
-Machine Learning
+### Machine Learning
 
 PyTorch
 
@@ -33,21 +33,21 @@ Hugging Face Transformers
 
 T5-small
 
-Backend
+### Backend
 
 Flask
 
-Database
+### Database
 
 MySQL
 
-Development Tools
+### Development Tools
 
 Google Colab
 
 Python 3.10+
 
-System Architecture
+## System Architecture
 User Input (Title + Body)
         │
         ▼
@@ -70,35 +70,35 @@ Frontend Display
 
 ## Installation
 
-Clone the repository:
+### Clone the repository:
 
-git clone https://github.com/yourusername/stack-tags-api.git
+git clone https://github.com/hashini-fernando/stackoverflow-tag-predictor
 cd stack-tags-api
 
-Create a virtual environment:
+### Create a virtual environment:
 
 python -m venv .venv
 
-Activate the environment:
+### Activate the environment:
 
 Windows
 
 .venv\Scripts\activate
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 Running the Application
 
-Start the Flask server:
+### Start the Flask server:
 
 python app_new.py
 
-Server will run at:
+### Server will run at:
 
 http://localhost:5000
 
-Model Training
+## Model Training
 
 The model was fine-tuned using the Hugging Face Trainer API.
 
@@ -153,5 +153,6 @@ Fernando R.H.S
 Department of Computer Engineering
 Faculty of Engineering
 University of Ruhuna
+
 
 
