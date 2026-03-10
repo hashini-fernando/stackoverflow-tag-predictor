@@ -1,4 +1,4 @@
-Automatic Stack Overflow Tag Generator
+# Automatic Stack Overflow Tag Generator
 
 AI-powered system that automatically predicts relevant tags for programming questions using transformer-based Natural Language Processing.
 
@@ -152,3 +152,4 @@ Fernando R.H.S
 Department of Computer Engineering
 Faculty of Engineering
 University of Ruhuna
+
