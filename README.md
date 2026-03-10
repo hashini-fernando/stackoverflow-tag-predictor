@@ -2,7 +2,7 @@
 
 AI-powered system that automatically predicts relevant tags for programming questions using transformer-based Natural Language Processing.
 
-Overview
+## Overview
 
 Tagging questions correctly on Stack Overflow is essential for organizing knowledge and helping developers find relevant solutions quickly. However, manual tagging can be inconsistent and time-consuming.
 
@@ -10,7 +10,7 @@ This project introduces an AI-powered tag prediction system that automatically g
 
 The application takes a programming question as input and generates multiple relevant tags.
 
-Features
+## Features
 
 Automatic tag generation for developer questions
 
@@ -67,7 +67,8 @@ Flask API Response
         │
         ▼
 Frontend Display
-Installation
+
+## Installation
 
 Clone the repository:
 
@@ -109,29 +110,29 @@ Fine-tuning the T5 model
 
 Evaluating using Precision, Recall, and F1-score
 
-Challenges
+## Challenges
 
-Transformer models require GPU resources
+- Transformer models require GPU resources
 
-Long questions require truncation
+- Long questions require truncation
 
-First inference can be slower due to model loading
+- First inference can be slower due to model loading
 
-Understanding code snippets remains challenging
+- Understanding code snippets remains challenging
 
-Future Improvements
+## Future Improvements
 
-Deploy using Docker + Cloud hosting
+- Deploy using Docker + Cloud hosting
 
-Upgrade to T5-Base / T5-Large
+- Upgrade to T5-Base / T5-Large
 
-Improve code snippet understanding
+- Improve code snippet understanding
 
-Add browser plugin for Stack Overflow
+- Add browser plugin for Stack Overflow
 
-Continuous model retraining with new data
+- Continuous model retraining with new data
 
-Resources
+## Resources
 
 Project Video
 https://drive.google.com/file/d/1uv_H4OCa7mjcY9Q6i9eZF73HGFGZ5SMG
@@ -152,4 +153,5 @@ Fernando R.H.S
 Department of Computer Engineering
 Faculty of Engineering
 University of Ruhuna
+
 
